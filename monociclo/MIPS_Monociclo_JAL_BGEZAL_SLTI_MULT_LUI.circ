@@ -683,6 +683,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(390,610)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x18"/>
+    </comp>
     <comp lib="6" loc="(530,426)" name="Text">
       <a name="text" val="Sign Extend"/>
       <a name="font" val="SansSerif plain 11"/>
@@ -1010,10 +1015,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="RegWrite"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(390,610)" name="Tunnel">
-      <a name="width" val="6"/>
-      <a name="label" val="É MULT?"/>
-    </comp>
     <comp lib="0" loc="(100,980)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Branch"/>
@@ -1035,7 +1036,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="addrWidth" val="24"/>
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 24 32
-8c010000 8c020004 221820 621822 10610002 ac000008 8000000 ac030008
+c0e0070 8c020004 221820 621822 10610002 ac000008 8000000 ac030008
 8000000
 </a>
     </comp>
